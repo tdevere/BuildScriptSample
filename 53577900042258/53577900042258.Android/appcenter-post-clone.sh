@@ -8,6 +8,9 @@ echo ""
 echo "Debug Step: search for .CSPROJ files\n"
 find . -name '*.csproj' -type f -print0
 echo ""
+echo "Debug Step: ls -R dir"
+ls -R
+echo ""
 echo "Debug Step: Nuget Test\n"
 nuget
 echo "Debug Step: End\n"
