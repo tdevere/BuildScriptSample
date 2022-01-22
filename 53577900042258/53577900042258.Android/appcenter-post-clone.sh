@@ -1,11 +1,11 @@
 ﻿#!/usr/bin/env bash
-echo "Android Sample"
-echo "appcenter-post-clone.sh - https://docs.microsoft.com/en-us/appcenter/build/custom/scripts/"
-echo "Debug Step: Begin"
-echo "Debug Step: search for .SLN"
+echo "Android Sample\n"
+echo "appcenter-post-clone.sh - https://docs.microsoft.com/en-us/appcenter/build/custom/scripts/ \n"
+echo "Debug Step: Begin\n"
+echo "Debug Step: search for .SLN\n"
 find . -name '*.sln' -type f -print0 
-echo "Debug Step: search for .CSPROJ files"
+echo "Debug Step: search for .CSPROJ files\n"
 find . -name '*.csproj' -type f -print0
-echo "Debug Step: Nuget Test"
+echo "Debug Step: Nuget Test\n"
 nuget
-echo "Debug Step: End"
+echo "Debug Step: End\n"
