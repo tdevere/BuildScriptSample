@@ -15,7 +15,7 @@ echo "Debug Step: Nuget Test\n"
 nuget
 echo ""
 echo "Debug Step: Your Build Test Here\n"
-/Users/runner/work/1/s
+cd /Users/runner/work/1/s
 find . -name '*.sln' -type f -print0 | /usr/bin/xargs -0 grep -l 'InsertYourProjectHere.csproj' | /usr/bin/xargs -I '{}'
 echo ""
 echo "Debug Step: End\n"
