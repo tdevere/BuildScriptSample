@@ -2,6 +2,10 @@
 echo "Android Sample\n"
 echo "appcenter-post-clone.sh - https://docs.microsoft.com/en-us/appcenter/build/custom/scripts/ \n"
 echo "Debug Step: Begin\n"
+echo "Debug Step: echo $JAVA_HOME\n"
+echo $JAVA_HOME
+echo "Debug Step: echo $JAVA_HOME_11_X64\n"
+echo $JAVA_HOME_11_X64
 echo "Debug Step: search for .SLN\n"
 find . -name '*.sln' -type f -print0 
 echo ""
