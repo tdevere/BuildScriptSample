@@ -8,6 +8,5 @@ Build scripts belong in the project folder - that is where the .CSPRO file is lo
 ## Xamarin iOS
 Build scripts belong in the Solution folder - that is where the .SLN file is located
 
-### Special Note
-~10/13/2022~
-`This Project was build with Visual Studio 22 Preview and at the current date of publishing, does not build correctly in App Center. The sample stands however, as the build scripts are detected and executed which was the purpose of this particular example.`
+## Running PowerShell from Bash Script
+You may opt to run PowerShell scripts vs bash. App Center doesn't provide a way for you to select a specific script to execute via the portal build configuraiton. The name must match a specific format and file extension. To plug in your PowerShell script, you'll need to invoke it directly from a shell bash script.
