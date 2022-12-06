@@ -18,5 +18,6 @@ function WriteStars
 	}
 }
 
+WriteStars
 
 Write-Host "</MyCustomPowerShellScript?"
