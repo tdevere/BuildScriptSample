@@ -2,9 +2,8 @@
 echo "Android Sample"
 echo "appcenter-pre-build.sh - https://docs.microsoft.com/en-us/appcenter/build/custom/scripts/#pre-build"
 
-echo "Sarting Call to PowerShell Script"
+echo "Starting Call to PowerShell Script"
 
-pwsh ./Users/runner/work/1/s/MyCustomPowerShellScript.ps1
-
+find ./Users/runner/work/1/s -name "MyCustomPowerShellScript.ps1" -exec pwsh {} \;
 
 echo "Finnished Call to PowerShell Script"
